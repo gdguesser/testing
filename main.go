@@ -9,7 +9,8 @@ func main() {
 
 	multiplication := Multiply(5, -6)
 
-	fmt.Printf("Some value: %s, Addition: %d, Multiplication: %d\n", someValue, addition, multiplication)
+	fmt.Printf("Some value: %s, Addition: %d, Multiplication: %d\n", 
+	someValue, addition, multiplication)
 }
 
 func SomeValue() string {
